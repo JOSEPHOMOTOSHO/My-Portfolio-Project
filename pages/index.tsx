@@ -46,23 +46,5 @@ const index = () => {
 
 export default index;
 
-export const getServerSideProps = async (
-  context: GetServerSidePropsContext
-) => {
-  //what is important is that we need to return a specific shape from the get server side props
-  //calculation
-  /*
-make a request to our services end point
-grab our services data
-pass the sevices data as prop to the index component above
-in the props in the index component we can access the services data
-*/
-  // const res = await fetch(`${process.env.VERCEL_URL}/api/service`);
-  // const data = await res.json();
-  // console.log("SERVER", data.services);
-  // return {
-  //   props: {
-  //     services: data.services,
-  //   },
-  // };
-};
+
+
