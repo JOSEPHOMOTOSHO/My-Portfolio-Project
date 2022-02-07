@@ -5,6 +5,7 @@ import { projects as projectsData } from "../data";
 import { Category } from "../types";
 import { motion } from "framer-motion";
 import { fadeUp, routerAnimation, stagger } from "../animation";
+import Head from "next/head";
 
 const Projects = () => {
   const [projects, setProjects] = useState(projectsData);
@@ -33,6 +34,9 @@ const Projects = () => {
       animate="animate"
       exit="exit"
     >
+      <Head>
+        <title>Omotosho Joseph</title>
+      </Head>
       <ProjectsNavBar
         handleFilterCategory={handleFilterCategory}
         active={active}

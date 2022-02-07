@@ -2,6 +2,8 @@ import Bar from "../components/Bar";
 import { technologies } from "../data";
 import { motion } from "framer-motion";
 import { fading, routerAnimation } from "../animation";
+import Head from "next/head";
+
 const Resume = () => {
   return (
     <motion.div
@@ -11,6 +13,10 @@ const Resume = () => {
       animate="animate"
       exit="exit"
     >
+      <Head>
+        <title>Omotosho Joseph</title>
+      </Head>
+
       <div className="grid gap-6 md:grid-cols-2">
         {/* education and technologies */}
         <div>

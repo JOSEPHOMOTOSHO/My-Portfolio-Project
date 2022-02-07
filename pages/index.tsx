@@ -2,7 +2,9 @@ import { GetServerSidePropsContext } from "next";
 import ServiceCard from "../components/ServiceCard";
 import { services } from "../data";
 import { motion } from "framer-motion";
-import { fadeUp, fading, routerAnimation, stagger } from "../animation";
+import { fadeUp, routerAnimation, stagger } from "../animation";
+import Head from "next/head";
+
 const index = () => {
   return (
     <motion.div
@@ -12,6 +14,9 @@ const index = () => {
       animate="animate"
       exit="exit"
     >
+      <Head>
+        <title>Omotosho Joseph</title>
+      </Head>
       <h5 className="my-3 font-medium">
         {" "}
         2 years experience building web applications with the MERN Stack. I
