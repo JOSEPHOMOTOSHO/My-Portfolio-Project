@@ -135,4 +135,14 @@ export const projects: IProject[] = [
     category: ["react", "node", "express"],
     tech_tags: ["React", "Node"],
   },
+  {
+    id: 3,
+    name: "Comfy E-commerce App",
+    description: "A Comfy E-commerce App",
+    image_path: "/images/comfy.png",
+    deployed_url: "https://agitated-knuth-f3be72.netlify.app/",
+    github_url: "https://github.com/JOSEPHOMOTOSHO/comfy-E-commerce",
+    category: ["react"],
+    tech_tags: ["React"],
+  },
 ];
