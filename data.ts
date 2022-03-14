@@ -145,4 +145,14 @@ export const projects: IProject[] = [
     category: ["react"],
     tech_tags: ["React"],
   },
+  {
+    id: 4,
+    name: "XD-NOTES APP",
+    description: "An application that allows users write their ideas and thoughts. Great for spreading inspiration",
+    image_path: "/images/XD-Notes.png",
+    deployed_url: "http://xdnotes.herokuapp.com/",
+    github_url: "https://github.com/JOSEPHOMOTOSHO/Notes-App-frontend",
+    category: ["react", "node", "express"],
+    tech_tags: ["React", "Node"],
+  },
 ];
