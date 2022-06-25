@@ -28,10 +28,10 @@ const Sidebar = () => {
         <span className="text-green">Omotosho </span> Joseph
       </h3>
       <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200">
-        FullStack Engineer
+        Software Engineer
       </p>
       <a
-        href="https://docs.google.com/document/d/1BIZFUofnGGY7B5Vsvpu8rcPfX43bsJ4d/edit?usp=sharing&ouid=113191603552966225457&rtpof=true&sd=true"
+        href="https://docs.google.com/document/d/1st9gqWVlQHhtGvUBZGA81AeIva8r2gYBKRmmKx_Tymc/edit?usp=sharing"
         className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200"
         download="Resume"
       >
@@ -59,8 +59,7 @@ const Sidebar = () => {
           <GoLocation />
           <span>Rivers State, Nigeria</span>
         </div>
-        <p className="my-2">Joseph.omotosho98@gmail.com</p>
-        <p className="my-2">08168029970</p>
+        <p className="my-2">+2348168029970</p>
       </div>
 
       {/* button */}

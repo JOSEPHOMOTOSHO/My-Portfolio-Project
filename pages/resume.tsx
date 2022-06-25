@@ -46,7 +46,7 @@ const Resume = () => {
             <div className="overflow-y-scroll h-116 ">
               <div>
                 <h5 className="my-2 text-xl font-bold">
-                  Junior Software Engineer
+                 Software Engineer
                 </h5>
                 <p className="font-semibold">
                   Kobo360 (January 2022 - Present)
@@ -57,7 +57,7 @@ const Resume = () => {
               </div>
               <div>
                 <h5 className="my-2 text-xl font-bold">
-                  Associate Software Engineer
+                  Software Engineer
                 </h5>
                 <p className="font-semibold">
                   Decagon (June 2021 - December 2021)
@@ -69,15 +69,18 @@ const Resume = () => {
               </div>
               <div>
                 <h5 className="my-2 text-xl font-bold">
-                  Tech Tutor and Freelancer
+                  Tech Tutor and  Software Engineer
                 </h5>
                 <p className="font-semibold">
                   9jaCodeKids Academy (November 2019 - June 2021 )
                 </p>
                 <p className="my-3">
-                  Built freelance projects for personal clients using NodeJs,
-                  ReactJs,Typescript, Express, and MongoDB. Part of a team of
-                  developers and content creators who built an EduTech App.
+                  <ul>
+                    <li> Built freelance projects for personal clients using NodeJs,
+                  ReactJs,Typescript, Express, and MongoDB</li>
+                  <li>Built a Student Management System.</li>
+                  </ul>
+          
                 </p>
               </div>
             </div>

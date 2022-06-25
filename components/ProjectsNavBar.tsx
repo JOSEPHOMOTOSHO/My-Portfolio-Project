@@ -31,8 +31,6 @@ export const ProjectsNavBar: FunctionComponent<{
       <NavItem value="postgresql" {...props} />
       <NavItem value="typescript" {...props} />
       <NavItem value="react" {...props} />
-      <NavItem value="html" {...props} />
-      <NavItem value="css" {...props} />
     </div>
   );
 };

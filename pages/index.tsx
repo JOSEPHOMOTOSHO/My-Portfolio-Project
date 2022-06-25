@@ -19,9 +19,10 @@ const index = () => {
       </Head>
       <h5 className="my-3 font-medium">
         {" "}
-        2 years experience building web applications with the MERN Stack. I
+        I am a passionate software developer with 2 years of experience, and I am committed to addressing problems
+          by converting business requirements into efficient and scalable software solutions. I
         adapt to the latest technological advancements and build software with
-        them.
+        them. Always eager to learn
       </h5>
       <div
         className="flex-grow p-4 mt-4 bg-gray-400 dark:bg-dark-100"

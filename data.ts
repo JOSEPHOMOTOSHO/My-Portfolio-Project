@@ -1,6 +1,7 @@
 import { RiComputerLine } from "react-icons/ri";
 import { FaServer } from "react-icons/fa";
 import { AiOutlineAntDesign, AiOutlineApi } from "react-icons/ai";
+import { SiTestinglibrary} from "react-icons/si"
 import { MdDeveloperMode } from "react-icons/md";
 import { IProject, IService, ISkill } from "./types";
 import { BsCircleFill } from "react-icons/bs";
@@ -10,18 +11,23 @@ export const services: IService[] = [
     Icon: RiComputerLine,
     title: "Frontend Development",
     about:
-      "I can build a beautiful and scalable SPA using <b> HTML</b>,<b>CSS</b>   and <b>React.js</b> ",
+      "I can build a beautiful and scalable SPA using <b>Next.js</b> and <b>React.js</b>",
   },
   {
     Icon: FaServer,
     title: "Backend  Development",
     about:
-      "handle database, server, api using <b>Express </b> & other popular frameworks",
+      "handle database, server, api using <b>Node.js</b>, <b>Express</b>, & <b>NestJS",
   },
   {
     Icon: AiOutlineApi,
     title: "API Development",
-    about: "I can develop robust  REST API using <b>Node API</b> ",
+    about: "I can develop robust API using <b>REST</b> and <b>GraphQL</b> ",
+  },
+  {
+    Icon: SiTestinglibrary,
+    title: "Testing",
+    about: `I can Implement unit and integration tests`,
   },
 ];
 
@@ -117,16 +123,6 @@ export const projects: IProject[] = [
   },
   {
     id: 2,
-    name: "Travel Site",
-    description: "A Sample travel site landing page",
-    image_path: "/images/travelsite.png",
-    deployed_url: "https://joseph-travel-site.netlify.app/#our-beginning",
-    github_url: "https://github.com/JOSEPHOMOTOSHO/travel-site",
-    category: ["html", "css"],
-    tech_tags: ["Html", "Css"],
-  },
-  {
-    id: 3,
     name: "E-Market Place",
     description: "A Basic E-commerce App",
     image_path: "/images/e-commerce.png",
